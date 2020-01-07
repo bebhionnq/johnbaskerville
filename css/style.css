@@ -1,0 +1,181 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+/*---------- MAIN STYLING ----------*/
+
+
+body {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background: #green;
+    color: #333;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+
+
+/*------FLEXBOX--------*/
+article {display: flex;
+flex-flow:column;}
+
+
+.main {flex:3;
+padding-right: 1em;}
+
+
+
+aside {flex:2;
+font-size: 0.75em;
+font-style: italic;
+border-left:1px solid #333;
+padding-left:1em;}
+
+/*---------------- TYPOGRAPHY ---------------*/
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: #00b8e6;
+    text-align: center;
+}
+
+p, blockquote {
+    margin-bottom: 1.5em;
+    line-height: 1.4;
+}
+
+h1 {font-size: 2.827em;
+    margin-top: 2em;
+    margin-bottom: 0.1em;
+}
+
+h2 {font-size: 1.999em;
+margin: 3em 0 1em 0}
+
+h3 {font-size: 1.414em;
+margin-bottom: 1.5em;}
+
+blockquote {
+   font-size: 1.414em;
+   hanging-punctuation: first;
+   text-indent: -0.44em;
+   color: #00b8e6;
+}
+
+blockquote cite {
+    font-size: 0.75em;
+    color: #008fb3;
+}
+
+/*--------------------- STYLING LINKS -----------------*/
+a {
+    color: #8F0040;
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+    border-bottom: 1px dotted;
+}
+
+
+/*-------------- NAVIGATION ------------- */
+
+nav{
+position:fixed;
+top: 0;
+left: 0;
+margin: 0;
+Width: 100%;
+background-color:#007a99;
+padding:1em 0;
+font-size: 0.75em;
+}
+
+nav ul{
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+
+nav ul li{
+display:inline;
+Margin: 20px;
+}
+
+nav a:link {
+    color: #fafafa;
+}
+
+nav a:visited {
+    color: #fafafa;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #ff99cc;
+
+}
+
+
+
+/*----------- TABLE STYLING -----------*/
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+caption {
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+th {
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #007a99;
+}
+
+th, td {
+    padding: .6em }
+
+table, td   {
+    background: rgb(221, 160, 187);
+    border: 1px solid #fafafa
+}
+
+
+
+
+
+/* SMARTPHONE */
+
+
+/*----- TABLET -------*/
+
+
+@media (max-width: width 35em;){ body: }
+
+
+
+
+/*------------- FOOTER -------------*/
+footer {
+    text-align: center;
+    font-size: 0.707em;
+    padding: 2em 0 4em 0
+} 
